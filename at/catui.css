@@ -15,3 +15,6 @@ card {
 	margin: 4px 2px;
 	cursor: pointer;
 }
+.inner-card {
+	padding: 30px 30px;
+}
