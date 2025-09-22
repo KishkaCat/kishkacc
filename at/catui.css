@@ -22,8 +22,11 @@ card {
 .footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 90%;
-    margin: 5% 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4px;
 
     color: #d924ff;
     background-color: #000000;
