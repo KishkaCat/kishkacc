@@ -23,7 +23,9 @@ card {
     position: fixed;
     left: 0;
     bottom: 0;
+    width: 95%;
     color: #d924ff;
+    align-self: center;
     background-color: #000000;
     border: 1px solid #d924ff;
     border-radius: 8px;
