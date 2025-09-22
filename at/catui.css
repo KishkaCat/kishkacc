@@ -25,7 +25,8 @@ card {
     bottom: 0;
     width: 95%;
     color: #d924ff;
-    margin: 0 auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     background-color: #000000;
     border: 1px solid #d924ff;
     border-radius: 8px;
