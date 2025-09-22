@@ -38,3 +38,7 @@ card {
     cursor: pointer;
     padding: 5px 5px;
 }
+.custom-br {
+    color: #d924ff;
+    size: 1px solid;
+}
