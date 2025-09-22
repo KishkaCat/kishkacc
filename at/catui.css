@@ -22,11 +22,11 @@ card {
 .footer {
     position: fixed;
     bottom: 0;
-    left: 0;
+    place-self: center;
     width: 95%;
-    margin-left: 5%;
+    /*margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 4px;
+    margin-bottom: 4px;*/
 
     color: #d924ff;
     background-color: #000000;
@@ -38,7 +38,8 @@ card {
     cursor: pointer;
     padding: 5px 5px;
 }
-.custom-br {
+c-br {
+    border: none;
+    height: 1px;
     color: #d924ff;
-    size: 1px solid;
 }
