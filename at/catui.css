@@ -1,11 +1,12 @@
 body {
-    color: #ffffff;
+    color: #d924ff;
     background-color: #000000;
+    padding: 10px 10px;
 }
 card {
     color: #000000;
     background-color: #000000;
-    border: 1px solid #ffffff;
+    border: 1px solid #d924ff;
     border-radius: 8px;
     text-decoration: none;
     display: inline-block;
@@ -13,7 +14,18 @@ card {
     margin: 4px 2px;
     cursor: default;
 }
-.inner-card {
+/*.inner-card {
     padding: 10px 10px;
-    color: #ffffff;
+    color: #d924ff;
+    }*/
+footer {
+    color: #000000;
+    background-color: #000000;
+    border: 1px solid #d924ff;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: default;
 }
