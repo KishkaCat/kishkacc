@@ -38,7 +38,7 @@ card {
     cursor: pointer;
     padding: 5px 5px;
 }
-c-br {
+hr {
     border: none;
     height: 1px;
     color: #d924ff;
