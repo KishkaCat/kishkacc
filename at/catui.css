@@ -22,24 +22,11 @@ card {
 .footer {
     position: fixed;
     bottom: 0;
-    place-self: center;
-    width: 95%;
-    /*margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 4px;*/
-
-    color: #d924ff;
-    background-color: #000000;
-    border: 1px solid #d924ff;
-    border-radius: 8px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 5px 5px;
+    left: 0;
+    width: 100%;
 }
 hr {
     border: none;
     height: 1px;
-    color: #d924ff;
+    background-color: #d924ff;
 }
