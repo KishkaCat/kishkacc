@@ -2,6 +2,10 @@ body {
     color: #d924ff;
     background-color: #000000;
     padding: 10px 10px;
+    cursor: grab;
+}
+a {
+    color: #d924ff;
 }
 card {
     color: #d924ff;
@@ -12,10 +16,13 @@ card {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: default;
+    cursor: grab;
     padding: 10px 10px;
 }
-footer {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     color: #d924ff;
     background-color: #000000;
     border: 1px solid #d924ff;
@@ -24,5 +31,5 @@ footer {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: default;
+    cursor: pointer;
 }
