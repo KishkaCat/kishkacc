@@ -1,0 +1,132 @@
+<script lang="ts">
+	import "../../catui.css";
+
+	const version = "v1.5.8";
+
+	function copykishkacc88x31Snippet() {
+		navigator.clipboard.writeText(
+			'<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" alt="kishka.cc/at 88x31" /></a>',
+		);
+	}
+
+	type notifData = {
+		title: string;
+		message: string;
+	};
+	let notifications: notifData[] = $state([]);
+</script>
+
+<head>
+	<title>Kishka.cC/at</title>
+</head>
+
+<div style="text-align: center">
+	<card style="width: 75%; height: 75%">
+		<h1>🇺🇦🏳️‍⚧️Kishka.cC/at🏳️‍⚧️🇺🇦</h1>
+
+		<h3>⚠️ Notice: ⚠️</h3>
+		<card style="cursor: wait">
+			<p>
+				this website will be updated to look nicer once i feel like
+				working on it more :3
+			</p>
+		</card>
+
+		<hr />
+		<br /><br />
+
+		<h4>about me!</h4>
+		<card style="cursor: context-menu">
+			<p>привіт!! я кішка!</p>
+			<p>i'm a cat and i speak ukrainian</p>
+			<p>i'm also trans and aroace</p>
+		</card>
+
+		<br /><br />
+
+		<h4>where to find me!</h4>
+		<card style="cursor: context-menu">
+			<p>you can call me cat! (or kishka)</p>
+			<p>
+				you can find me on mastodon here:
+				<a href="https://tech.lgbt/@kishka" target="_blank"
+					>@kishka@tech.lgbt</a
+				>
+			</p>
+			<p>
+				you can find me on github here:
+				<a href="https://github.com/KishkaCat" target="_blank"
+					>@KishkaCat</a
+				>
+			</p>
+		</card>
+
+		<br /><br />
+
+		<h4>Buttons!!!!</h4>
+		<card>
+			<a href="https://kishka.cc/at" target="_blank"
+				><img
+					src="https://kishka.cc/at/88x31.gif"
+					alt="kishka.cc/at 88x31"
+				/></a
+			>
+			<a href="https://micr0.dev/" target="_blank"
+				><img
+					src="https://micr0.dev/88x31.gif"
+					alt="micr0.dev 88x31"
+				/></a
+			>
+			<a href="https://sarascafe.lenowo.org" target="_blank"
+				><img
+					src="https://sarascafe.lenowo.org/sarascafe.gif"
+					alt="sarascafe.lenowo.org 88x31"
+				/></a
+			>
+			<a href="https://maia.crimew.gay" target="_blank"
+				><img
+					src="https://maia.crimew.gay/badges/maia.crimew.gay.png"
+					alt="maia.crimew.gay 88x31"
+				/></a
+			>
+			<a href="https://nyatalie.fyi" target="_blank"
+				><img
+					src="https://nyatalie.fyi/nat88x31.png"
+					alt="nyatalie.fyi 88x31"
+				/></a
+			>
+			<a href="https://azom.dev" target="_blank"
+				><img src="https://azom.dev/8831.gif" alt="azom.dev 8831" /></a
+			>
+			<a href="https://awawa.neocities.org" target="_blank"
+				><img
+					src="https://awawa.neocities.org/buttons/awawa.png"
+					alt="awawa.neocities.org 88x31"
+				/></a
+			></card
+		>
+
+		<br /><br />
+
+		<button onclick={() => copykishkacc88x31Snippet()} style="cursor: copy">
+			Copy my button!
+		</button>
+
+		<!--Leave these breaks alone, as they let the page function normally -->
+		<br /><br /><br />
+
+		<div class="footer">
+			<card style="width: 75%">
+				<h6 style="text-align: right; margin: 5px">{version}</h6>
+			</card>
+		</div>
+	</card>
+</div>
+
+{#each notifications as notif}
+	<card>
+		<h3>{notif.title}</h3>
+		<hr />
+		<p>{notif.message}</p>
+	</card>
+{/each}
