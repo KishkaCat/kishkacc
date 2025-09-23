@@ -1,0 +1,190 @@
+<!doctype html>
+<script lang="ts">
+	function copykishkacc88x31Snippet() {
+		navigator.clipboard.writeText(
+			'<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>',
+		);
+	}
+
+	Type notifData = {
+		title: str,
+		message: str,
+		displayed: false,
+		id: number,
+	};
+	let notifications: notifData[] = [];
+
+	function displayNotification(notification: notifData) {
+		const card = document.createElement('card');
+		card.textContent = `${notification.title}: ${notification.message}`;
+		card.addEventListener('click', () => {
+			notification.displayed = true;
+			card.remove();
+		});
+		document.body.appendChild(card);
+	}
+
+	async function fetchNotifications() { //I might not need this
+		notifications.forEach((notif) => {
+			if(notif.displayed == false) {
+				console.log(notif.title);
+				console.log(notif.message);
+				notif.displayed = true;
+			}
+		});
+		timeout(1000);
+	}
+
+	document.addEventListener('keydown', (event) => {
+	   	console.log(`Key pressed: ${event.key}`);
+	});
+</script>
+
+<style>
+	body {
+		color: #d924ff;
+		background-color: #000000;
+		padding: 10px 10px;
+		cursor: grab;
+	}
+	a {
+		color: #d924ff;
+	}
+	card {
+		color: #d924ff;
+		background-color: #000000;
+		border: 1px solid #d924ff;
+		border-radius: 8px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 0;
+		cursor: grab;
+		padding: 10px 10px;
+	}
+	.footer {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	hr {
+		border: none;
+		height: 1px;
+		background-color: #d924ff;
+		width: 100%;
+	}
+	button {
+		color: #d924ff;
+		background-color: #000000;
+		border: 1px solid #d924ff;
+		border-radius: 8px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 0;
+		cursor: grab;
+		padding: 10px 10px;
+	}
+	button:hover {
+		color: #d924ff;
+		background-color: #000000;
+		border: 1px solid #d924ff;
+		border-radius: 8px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 18px;
+		margin: 0;
+		cursor: grab;
+		padding: 10px 10px;
+	}
+</style>
+
+<head>
+	<!-- <link rel="stylesheet" text="text/css" href="catui.css" /> It's too difficult to have the style not in the same file as the HTML -->
+	<title>Kishka.cC/at</title>
+</head>
+
+<div style="text-align: center">
+	<card style="width: 75%; height: 75%">
+		<h1>🇺🇦🏳️‍⚧️Kishka.cC/at🏳️‍⚧️🇺🇦</h1>
+
+		<h3>⚠️ Notice: ⚠️</h3>
+		<card style="cursor: wait">
+			<p>
+				> this website will be updated to look nicer once i feel like
+				working on it more :3
+			</p>
+		</card>
+
+		<hr />
+		<br /><br />
+
+		<h4>about me!</h4>
+		<card style="cursor: context-menu">
+			<p>> привіт!! я кішка!</p>
+			<p>> i'm a cat and i speak ukrainian</p>
+			<p>> i'm also trans and aroace</p>
+		</card>
+
+		<br /><br />
+
+		<h4>where to find me!</h4>
+		<card style="cursor: context-menu">
+			<p>> you can call me cat! (or kishka)</p>
+			<p>
+				> you can find me on mastodon here:
+				<a href="https://tech.lgbt/@kishka" target="_blank"
+					>@kishka@tech.lgbt</a
+				>
+			</p>
+			<p>
+				> you can find me on github here:
+				<a href="https://github.com/KishkaCat" target="_blank"
+					>@KishkaCat</a
+				>
+			</p>
+		</card>
+
+		<br /><br />
+
+		<h4>Buttons!!!!</h4>
+		<card>
+			<a href="https://kishka.cc/at" target="_blank"
+				><img src="https://kishka.cc/at/88x31.gif"
+			/></a>
+			<a href="https://micr0.dev/" target="_blank"
+				><img src="https://micr0.dev/88x31.gif"
+			/></a>
+			<a href="https://sarascafe.lenowo.org" target="_blank"
+				><img src="https://sarascafe.lenowo.org/sarascafe.gif"
+			/></a>
+			<a href="https://maia.crimew.gay" target="_blank"
+				><img src="https://maia.crimew.gay/badges/maia.crimew.gay.png"
+			/></a>
+			<a href="https://nyatalie.fyi" target="_blank"
+				><img src="https://nyatalie.fyi/nat88x31.png"
+			/></a>
+			<a href="https://azom.dev" target="_blank"
+				><img src="https://azom.dev/8831.gif"
+			/></a>
+			<a href="https://awawa.neocities.org" target="_blank"
+				><img src="https://awawa.neocities.org/buttons/awawa.png" /></a
+		></card>
+
+		<br /><br />
+
+		<button onclick="copykishkacc88x31Snippet();" style="cursor: copy">
+			Copy my button!
+		</button>
+
+		<!--Leave these breaks alone, as they let the page function normally -->
+		<br /><br /><br />
+
+		<div class="footer">
+			<card style="width: 75%">
+				<h6 style="text-align: right; margin: 0">v1.4.11</h6>
+			</card>
+		</div>
+	</card>
+</div>
