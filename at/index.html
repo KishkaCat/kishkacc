@@ -4,6 +4,8 @@
 		navigator.clipboard.writeText(
 			'<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>',
 		);
+
+		alert("Copied");
 	}
 
 	Type notifData = {
@@ -23,21 +25,6 @@
 		});
 		document.body.appendChild(card);
 	}
-
-	async function fetchNotifications() { //I might not need this
-		notifications.forEach((notif) => {
-			if(notif.displayed == false) {
-				console.log(notif.title);
-				console.log(notif.message);
-				notif.displayed = true;
-			}
-		});
-		timeout(1000);
-	}
-
-	document.addEventListener('keydown', (event) => {
-	   	console.log(`Key pressed: ${event.key}`);
-	});
 </script>
 
 <style>
@@ -174,7 +161,7 @@
 
 		<br /><br />
 
-		<button onclick="copykishkacc88x31Snippet();" style="cursor: copy">
+		<button onclick="copykishkacc88x31Snippet()" style="cursor: copy">
 			Copy my button!
 		</button>
 

@@ -13,7 +13,12 @@
 		title: string;
 		message: string;
 	};
-	let notifications: notifData[] = $state([]);
+	let notifications: notifData[] = $state([
+		{
+			title: "potato",
+			message: "nomnomnom",
+		},
+	]);
 </script>
 
 <head>
@@ -128,5 +133,6 @@
 		<h3>{notif.title}</h3>
 		<hr />
 		<p>{notif.message}</p>
+		<button onclick={() => alert(notif)}>Dismiss</button>
 	</card>
 {/each}
