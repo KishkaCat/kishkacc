@@ -60,7 +60,7 @@
 		background-color: #d924ff;
 		width: 100%;
 	}
-	button {
+	.button {
 		color: #d924ff;
 		background-color: #000000;
 		border: 1px solid #d924ff;
@@ -69,10 +69,10 @@
 		display: inline-block;
 		font-size: 16px;
 		margin: 0;
-		cursor: grab;
+		cursor: copy;
 		padding: 10px 10px;
 	}
-	/*button:hover {
+	.button:hover {
 		color: #d924ff;
 		background-color: #000000;
 		border: 1px solid #d924ff;
@@ -81,9 +81,21 @@
 		display: inline-block;
 		font-size: 18px;
 		margin: 0;
-		cursor: grab;
+		cursor: copy;
 		padding: 10px 10px;
-	}*/
+	}
+	.button:active {
+		color: #d924ff;
+		background-color: #000000;
+		border: 1px solid #d924ff;
+		border-radius: 8px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 40px;
+		margin: 0;
+		cursor: progress;
+		padding: 10px 10px;
+	}
 </style>
 
 <head>
@@ -170,11 +182,7 @@
 
 		<br /><br />
 
-		<button
-			type="button"
-			onclick="{() => copykishkacc88x31Snippet()}"
-			style="cursor: copy"
-		>
+		<button class="button" onclick="copykishkacc88x31Snippet()">
 			Copy my button!
 		</button>
 
