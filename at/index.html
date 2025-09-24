@@ -1,9 +1,10 @@
 <!doctype html>
 <script>
-	function copykishkacc88x31Snippet() {
-		const kishkacc88x31Snippet = '<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>';
-		navigator.clipboard.writeText(kishkacc88x31Snippet).then(() => {alert("Code snippet copied!");});
-
+	async function copykishkacc88x31Snippet() {
+		const kishkacc88x31Snippet =
+			'<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>';
+		await navigator.clipboard.writeText(kishkacc88x31Snippet);
+		alert("Code snippet copied!");
 	}
 
 	/*Type notifData = {
@@ -116,7 +117,7 @@
 
 		<h4>where to find me!</h4>
 		<card style="cursor: context-menu">
-			<> you can call me cat! (or kishka)</>
+			you can call me cat! (or kishka)
 			<p>
 				you can find me on mastodon here:
 				<a href="https://tech.lgbt/@kishka" target="_blank"
@@ -136,30 +137,44 @@
 		<h4>Buttons!!!!</h4>
 		<card>
 			<a href="https://kishka.cc/at" target="_blank"
-				><img src="https://kishka.cc/at/88x31.gif"
+				><img
+					src="https://kishka.cc/at/88x31.gif"
+					alt="kishka.cc 88x31"
 			/></a>
 			<a href="https://micr0.dev/" target="_blank"
-				><img src="https://micr0.dev/88x31.gif"
+				><img src="https://micr0.dev/88x31.gif" alt="micr0.dev 88x31"
 			/></a>
 			<a href="https://sarascafe.lenowo.org" target="_blank"
-				><img src="https://sarascafe.lenowo.org/sarascafe.gif"
+				><img
+					src="https://sarascafe.lenowo.org/sarascafe.gif"
+					alt="sarascafe.lenowo.org 88x31"
 			/></a>
 			<a href="https://maia.crimew.gay" target="_blank"
-				><img src="https://maia.crimew.gay/badges/maia.crimew.gay.png"
+				><img
+					src="https://maia.crimew.gay/badges/maia.crimew.gay.png"
+					alt="maia.crimew.gay 88x31"
 			/></a>
 			<a href="https://nyatalie.fyi" target="_blank"
-				><img src="https://nyatalie.fyi/nat88x31.png"
+				><img
+					src="https://nyatalie.fyi/nat88x31.png"
+					alt="nyatalie.fyi 88x31"
 			/></a>
 			<a href="https://azom.dev" target="_blank"
-				><img src="https://azom.dev/8831.gif"
+				><img src="https://azom.dev/8831.gif" alt="azom.dev 88x31"
 			/></a>
 			<a href="https://awawa.neocities.org" target="_blank"
-				><img src="https://awawa.neocities.org/buttons/awawa.png" /></a
+				><img
+					src="https://awawa.neocities.org/buttons/awawa.png"
+					alt="awawa.neocities.org 88x31" /></a
 		></card>
 
 		<br /><br />
 
-		<button type="button" on:click="copykishkacc88x31Snippet()" style="cursor: copy">
+		<button
+			type="button"
+			onclick="{() => copykishkacc88x31Snippet()}"
+			style="cursor: copy"
+		>
 			Copy my button!
 		</button>
 
