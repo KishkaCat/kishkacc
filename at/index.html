@@ -1,14 +1,14 @@
 <!doctype html>
 <script lang="ts">
 	function copykishkacc88x31Snippet() {
-		navigator.clipboard.writeText(
-			'<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>',
-		);
+		const kishkacc88x31Snippet = '<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>';
+		navigator.clipboard.writeText(kishkacc88x31Snippet).then(() => {
+							alert("Code snippet copied!");
+						});
 
-		alert("Copied");
 	}
 
-	Type notifData = {
+	/*Type notifData = {
 		title: str,
 		message: str,
 		displayed: false,
@@ -23,7 +23,7 @@
 			notification.displayed = true;
 			card.remove();
 		});
-		document.body.appendChild(card);
+		document.body.appendChild(card);*/
 	}
 </script>
 
@@ -73,7 +73,7 @@
 		cursor: grab;
 		padding: 10px 10px;
 	}
-	button:hover {
+	/*button:hover {
 		color: #d924ff;
 		background-color: #000000;
 		border: 1px solid #d924ff;
@@ -84,7 +84,7 @@
 		margin: 0;
 		cursor: grab;
 		padding: 10px 10px;
-	}
+	}*/
 </style>
 
 <head>
@@ -99,7 +99,7 @@
 		<h3>⚠️ Notice: ⚠️</h3>
 		<card style="cursor: wait">
 			<p>
-				> this website will be updated to look nicer once i feel like
+				this website will be updated to look nicer once i feel like
 				working on it more :3
 			</p>
 		</card>
@@ -109,24 +109,24 @@
 
 		<h4>about me!</h4>
 		<card style="cursor: context-menu">
-			<p>> привіт!! я кішка!</p>
-			<p>> i'm a cat and i speak ukrainian</p>
-			<p>> i'm also trans and aroace</p>
+			<p>привіт!! я кішка!</p>
+			<p>i'm a cat and i speak ukrainian</p>
+			<p>i'm also trans and aroace</p>
 		</card>
 
 		<br /><br />
 
 		<h4>where to find me!</h4>
 		<card style="cursor: context-menu">
-			<p>> you can call me cat! (or kishka)</p>
+			<> you can call me cat! (or kishka)</>
 			<p>
-				> you can find me on mastodon here:
+				you can find me on mastodon here:
 				<a href="https://tech.lgbt/@kishka" target="_blank"
 					>@kishka@tech.lgbt</a
 				>
 			</p>
 			<p>
-				> you can find me on github here:
+				you can find me on github here:
 				<a href="https://github.com/KishkaCat" target="_blank"
 					>@KishkaCat</a
 				>
@@ -161,7 +161,7 @@
 
 		<br /><br />
 
-		<button onclick="copykishkacc88x31Snippet()" style="cursor: copy">
+		<button type="button" onclick="copykishkacc88x31Snippet()" style="cursor: copy">
 			Copy my button!
 		</button>
 
@@ -170,7 +170,7 @@
 
 		<div class="footer">
 			<card style="width: 75%">
-				<h6 style="text-align: right; margin: 0">v1.4.11</h6>
+				<h6 style="text-align: right; margin: 0">v1.4.13</h6>
 			</card>
 		</div>
 	</card>
