@@ -1,2 +1,2 @@
-#k iskacc
+# kiskacc
 source code for kishka.cc
