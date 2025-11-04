@@ -1,24 +1,8 @@
 <!doctype html>
-<script>
-	async function copykishkacc88x31Snippet() {
-		const kishkacc88x31Snippet =
-			'<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>';
-		await navigator.clipboard.writeText(kishkacc88x31Snippet);
-		alert("Code snippet copied!");
-	}
-
-	function toggleDropdownElement(elementId) {
-		const element = document.getElementById(elementId);
-		element.hidden = !element.hidden;
-	}
-</script>
 
 <link rel="stylesheet" type="text/css" href="catui.css" />
 
-<head>
-	<!-- <link rel="stylesheet" text="text/css" href="catui.css" /> It's too difficult to have the style not in the same file as the HTML -->
-	<title>Kishka.cC/at</title>
-</head>
+<title>Kishka.cC/at</title>
 
 <div style="text-align: center">
 	<card style="width: 75%; height: 75%">
@@ -132,8 +116,28 @@
 
 		<div class="footer">
 			<card style="width: 75%">
-				<h6 style="text-align: right; margin: 0">v1.4.15</h6>
+				<p id="versionDisplay" style="text-align: right; margin: 0">
+					[ERROR]
+				</p>
 			</card>
 		</div>
 	</card>
 </div>
+
+<script>
+	const version = "v1.7.16";
+	let versionDisplay = document.getElementById("versionDisplay");
+	versionDisplay.textContent = version;
+
+	async function copykishkacc88x31Snippet() {
+		const kishkacc88x31Snippet =
+			'<a href="https://kishka.cc/at" target="_blank"><img src="https://kishka.cc/at/88x31.gif" /></a>';
+		await navigator.clipboard.writeText(kishkacc88x31Snippet);
+		alert("Code snippet copied!");
+	}
+
+	function toggleDropdownElement(elementId) {
+		const element = document.getElementById(elementId);
+		element.hidden = !element.hidden;
+	}
+</script>
