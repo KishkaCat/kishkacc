@@ -6,11 +6,28 @@
 
 <div style="text-align: center">
 	<card style="width: 75%; height: 75%">
-		<div style="position: center">
+		<!--<div style="position: center">
 			<object
-				data="kishka.div"
+				data="kishka.cc/at/kishka.div"
 				style="width: 100%; height: 100%"
 			></object>
+		</div>-->
+
+		<div style="position: center">
+			<small>
+				<small>
+					<pre>
+<span>                                 █████   ████  ███          █████      █████                              █████████              ███            █████                                 </span>
+<span><a style="color: #0057B7"> ██████████████████████</a>          ░░███   ███░  ░░░          ░░███      ░░███                              ███░░░░░███           ███░            ░░███            <a style="color: #55CDFC"> ██████████████████████</a></span>
+<span><a style="color: #0057B7">░██████████████████████</a>           ░███  ███    ████   █████  ░███████   ░███ █████  ██████       ██████  ███     ░░░          ███░     ██████   ███████          <a style="color: #F7A8B8"><b style="color: #55CDFC">░</b>██████████████████████</a></span>
+<span><a style="color: #0057B7">░██████████████████████</a>           ░███████    ░░███  ███░░   ░███░░███  ░███░░███  ░░░░░███     ███░░███░███                ███░      ░░░░░███ ░░░███░           <a style="color: #FFFFFF"><b style="color: #F7A8B8">░</b>██████████████████████</a></span>
+<span><a style="color: #FFD700"><b style="color: #0057B7">░</b>██████████████████████</a>           ░███░░███    ░███ ░░█████  ░███ ░███  ░██████░    ███████    ░███ ░░░ ░███              ███░         ███████   ░███            <a style="color: #FFFFFF"><b style="color: #FFFFFF">░</b>██████████████████████</a></span>
+<span><a style="color: #FFD700">░██████████████████████</a>           ░███ ░░███   ░███  ░░░░███ ░███ ░███  ░███░░███  ███░░███    ░███  ███░░███     ███   ███░          ███░░███   ░███ ███        <a style="color: #F7A8B8"><b style="color: #FFFFFF">░</b>██████████████████████</a></span>
+<span><a style="color: #FFD700">░██████████████████████</a>           █████ ░░████ █████ ██████  ████ █████ ████ █████░░████████ ██░░██████  ░░█████████  ███░           ░░████████  ░░█████         <a style="color: #55CDFC"><b style="color: #F7A8B8">░</b>██████████████████████</a></span>
+<span><a style="color: #FFD700">░░░░░░░░░░░░░░░░░░░░░░</a>           ░░░░░   ░░░░ ░░░░░ ░░░░░░  ░░░░ ░░░░░ ░░░░ ░░░░░  ░░░░░░░░ ░░  ░░░░░░    ░░░░░░░░░  ░░░              ░░░░░░░░    ░░░░░          <b style="color: #55CDFC">░░░░░░░░░░░░░░░░░░░░░░</b> </span>
+						</pre>
+				</small>
+			</small>
 		</div>
 
 		<h3>⚠️ Notice: ⚠️</h3>
@@ -27,8 +44,7 @@
 
 		<card
 			style="cursor: context-menu"
-			onmouseenter="aboutMe.hidden = false"
-			onmouseleave="aboutMe.hidden = true"
+			onclick="aboutMe.hidden = !aboutMe.hidden"
 		>
 			<h4>about me!</h4>
 			<div id="aboutMe" hidden="true">
@@ -43,8 +59,7 @@
 
 		<card
 			style="cursor: context-menu"
-			onmouseenter="mySocials.hidden = false"
-			onmouseleave="mySocials.hidden = true"
+			onclick="mySocials.hidden = !mySocials.hidden"
 		>
 			<h4>where to find me!</h4>
 			<div id="mySocials" hidden="true">
@@ -65,6 +80,33 @@
 				<p>
 					you can find me on git.gay here:
 					<a href="https://git.gay/kishka" target="_blank">@kishka</a>
+				</p>
+			</div>
+		</card>
+
+		<br /><br />
+
+		<card
+			style="cursor: context-menu"
+			onclick="contactMe.hidden = !contactMe.hidden"
+		>
+			<h4>how to contact me!</h4>
+			<div id="contactMe" hidden="true">
+				<hr />
+				you can call me cat! (or kishka)
+				<p>
+					(soon) email me here:
+					<a href="mailto:kishka@kishka.cc" target="_blank"
+						>kishka@kishka.cc</a
+					>
+				</p>
+				<p>
+					message me on signal here:
+					<a
+						href="https://signal.me/#eu/gX0CSZdO0KdJRU1KQQJe6Nlyt9qzV-lWoDODp78I4WTuaKhaYUxDrqFkbXhDi3OC"
+						target="_blank"
+						>kishka.02</a
+					>
 				</p>
 			</div>
 		</card>
@@ -125,7 +167,7 @@
 </div>
 
 <script>
-	const version = "v1.7.16";
+	const version = "v1.7.19";
 	let versionDisplay = document.getElementById("versionDisplay");
 	versionDisplay.textContent = version;
 
