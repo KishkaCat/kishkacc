@@ -6,6 +6,11 @@
 		await navigator.clipboard.writeText(kishkacc88x31Snippet);
 		alert("Code snippet copied!");
 	}
+
+	function toggleDropdownElement(elementId) {
+		const element = document.getElementById(elementId);
+		element.hidden = !element.hidden;
+	}
 </script>
 
 <link rel="stylesheet" type="text/css" href="catui.css" />
@@ -17,7 +22,12 @@
 
 <div style="text-align: center">
 	<card style="width: 75%; height: 75%">
-		<h1>🇺🇦🏳️‍⚧️ | Kishka.cC/at | 🏳️‍⚧️🇺🇦</h1>
+		<div style="position: center">
+			<object
+				data="kishka.div"
+				style="width: 100%; height: 100%"
+			></object>
+		</div>
 
 		<h3>⚠️ Notice: ⚠️</h3>
 		<card style="cursor: wait">
@@ -27,37 +37,52 @@
 			</p>
 		</card>
 
-		<hr />
 		<br /><br />
+		<hr />
+		<br />
 
-		<h4>about me!</h4>
-		<card style="cursor: context-menu">
-			<p>привіт!! я кішка!</p>
-			<p>i'm cat and i speak ukrainian</p>
-			<p>i'm also trans and aroace</p>
+		<card
+			style="cursor: context-menu"
+			onmouseenter="aboutMe.hidden = false"
+			onmouseleave="aboutMe.hidden = true"
+		>
+			<h4>about me!</h4>
+			<div id="aboutMe" hidden="true">
+				<hr />
+				<p>привіт!! я кішка!</p>
+				<p>i'm cat and i speak ukrainian</p>
+				<p>i'm also trans and aroace</p>
+			</div>
 		</card>
 
 		<br /><br />
 
-		<h4>where to find me!</h4>
-		<card style="cursor: context-menu">
-			you can call me cat! (or kishka)
-			<p>
-				you can find me on mastodon here:
-				<a href="https://tech.lgbt/@kishka" target="_blank"
-					>@kishka@tech.lgbt</a
-				>
-			</p>
-			<p>
-				you can find me on github here:
-				<a href="https://github.com/KishkaCat" target="_blank"
-					>@KishkaCat</a
-				>
-			</p>
-			<p>
-				you can find me on git.gay here:
-				<a href="https://git.gay/kishka" target="_blank">@kishka</a>
-			</p>
+		<card
+			style="cursor: context-menu"
+			onmouseenter="mySocials.hidden = false"
+			onmouseleave="mySocials.hidden = true"
+		>
+			<h4>where to find me!</h4>
+			<div id="mySocials" hidden="true">
+				<hr />
+				you can call me cat! (or kishka)
+				<p>
+					you can find me on mastodon here:
+					<a href="https://tech.lgbt/@kishka" target="_blank"
+						>@kishka@tech.lgbt</a
+					>
+				</p>
+				<p>
+					you can find me on github here:
+					<a href="https://github.com/KishkaCat" target="_blank"
+						>@KishkaCat</a
+					>
+				</p>
+				<p>
+					you can find me on git.gay here:
+					<a href="https://git.gay/kishka" target="_blank">@kishka</a>
+				</p>
+			</div>
 		</card>
 
 		<br /><br />
