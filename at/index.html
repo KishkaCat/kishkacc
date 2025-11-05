@@ -6,13 +6,6 @@
 
 <div style="text-align: center">
 	<card style="width: 75%; height: 75%">
-		<!--<div style="position: center">
-			<object
-				data="kishka.cc/at/kishka.div"
-				style="width: 100%; height: 100%"
-			></object>
-		</div>-->
-
 		<div style="position: center">
 			<small>
 				<small>
@@ -42,132 +35,157 @@
 		<hr />
 		<br />
 
-		<card
-			style="cursor: context-menu"
-			onclick="aboutMe.hidden = !aboutMe.hidden"
-		>
-			<h4>about me!</h4>
-			<div id="aboutMe" hidden="true">
-				<hr />
-				<p>привіт!! я кішка!</p>
-				<p>i'm cat and i speak ukrainian</p>
-				<p>i'm also trans and aroace</p>
-			</div>
-		</card>
-
-		<br /><br />
-
-		<card
-			style="cursor: context-menu"
-			onclick="mySocials.hidden = !mySocials.hidden"
-		>
-			<h4>where to find me!</h4>
-			<div id="mySocials" hidden="true">
-				<hr />
-				you can call me cat! (or kishka)
-				<p>
-					you can find me on mastodon here:
-					<a href="https://tech.lgbt/@kishka" target="_blank"
-						>@kishka@tech.lgbt</a
+		<div style="text-align: left">
+			<card style="cursor: context-menu padding: 0">
+				<div style="text-align: left">
+					<div
+						onclick="aboutMe.hidden = !aboutMe.hidden; aboutMe1.hidden = !aboutMe1.hidden; aboutMe2.hidden = !aboutMe2.hidden"
 					>
-				</p>
-				<p>
-					you can find me on github here:
-					<a href="https://github.com/KishkaCat" target="_blank"
-						>@KishkaCat</a
-					>
-				</p>
-				<p>
-					you can find me on git.gay here:
-					<a href="https://git.gay/kishka" target="_blank">@kishka</a>
-				</p>
-			</div>
-		</card>
+						<h4 id="aboutMe1">> | about me!</h4>
+						<h4 id="aboutMe2" hidden="true">v | about me!</h4>
+					</div>
+					<div id="aboutMe" hidden="true">
+						<hr />
+						<p>привіт!! я кішка!</p>
+						<p>i'm cat and i speak ukrainian</p>
+						<p>i'm also trans and aroace</p>
+					</div>
+				</div>
+			</card>
 
-		<br /><br />
+			<br /><br />
 
-		<card
-			style="cursor: context-menu"
-			onclick="contactMe.hidden = !contactMe.hidden"
-		>
-			<h4>how to contact me!</h4>
-			<div id="contactMe" hidden="true">
-				<hr />
-				you can call me cat! (or kishka)
-				<p>
-					(soon) email me here:
-					<a href="mailto:kishka@kishka.cc" target="_blank"
-						>kishka@kishka.cc</a
-					>
-				</p>
-				<p>
-					message me on signal here:
-					<a
-						href="https://signal.me/#eu/gX0CSZdO0KdJRU1KQQJe6Nlyt9qzV-lWoDODp78I4WTuaKhaYUxDrqFkbXhDi3OC"
-						target="_blank"
-						>kishka.02</a
-					>
-				</p>
-			</div>
-		</card>
+			<card style="cursor: context-menu padding: 0">
+				<div
+					onclick="mySocials.hidden = !mySocials.hidden; mySocials1.hidden = !mySocials1.hidden; mySocials2.hidden = !mySocials2.hidden"
+				>
+					<h4 id="mySocials1">> | where you can find me!</h4>
+					<h4 id="mySocials2" hidden="true">
+						v | where you can find me!
+					</h4>
+				</div>
+				<div id="mySocials" hidden="true">
+					<hr />
+					you can call me cat! (or kishka)
+					<p>
+						you can find me on mastodon here:
+						<a href="https://tech.lgbt/@kishka" target="_blank"
+							>@kishka@tech.lgbt</a
+						>
+					</p>
+					<p>
+						you can find me on github here:
+						<a href="https://github.com/KishkaCat" target="_blank"
+							>@KishkaCat</a
+						>
+					</p>
+					<p>
+						you can find me on git.gay here:
+						<a href="https://git.gay/kishka" target="_blank"
+							>@kishka</a
+						>
+					</p>
+				</div>
+			</card>
 
-		<br /><br />
+			<br /><br />
 
-		<h4>Buttons!!!!</h4>
-		<card>
-			<a href="https://kishka.cc/at" target="_blank"
-				><img
-					src="https://kishka.cc/at/88x31.gif"
-					alt="kishka.cc 88x31"
-			/></a>
-			<a href="https://micr0.dev/" target="_blank"
-				><img src="https://micr0.dev/88x31.gif" alt="micr0.dev 88x31"
-			/></a>
-			<a href="https://sarascafe.lenowo.org" target="_blank"
-				><img
-					src="https://sarascafe.lenowo.org/sarascafe.gif"
-					alt="sarascafe.lenowo.org 88x31"
-			/></a>
-			<a href="https://maia.crimew.gay" target="_blank"
-				><img
-					src="https://maia.crimew.gay/badges/maia.crimew.gay.png"
-					alt="maia.crimew.gay 88x31"
-			/></a>
-			<a href="https://nyatalie.fyi" target="_blank"
-				><img
-					src="https://nyatalie.fyi/nat88x31.png"
-					alt="nyatalie.fyi 88x31"
-			/></a>
-			<a href="https://azom.dev" target="_blank"
-				><img src="https://azom.dev/8831" alt="azom.dev 88x31"
-			/></a>
-			<a href="https://awawa.neocities.org" target="_blank"
-				><img
-					src="https://awawa.neocities.org/buttons/awawa.png"
-					alt="awawa.neocities.org 88x31" /></a
-		></card>
-
-		<br /><br />
-
-		<button class="button" onclick="copykishkacc88x31Snippet()">
-			Copy my button!
-		</button>
-
-		<!--Leave these breaks alone, as they let the page function normally -->
-		<br /><br /><br />
+			<card style="cursor: context-menu padding: 0">
+				<div
+					onclick="contactMe.hidden = !contactMe.hidden; contactMe1.hidden = !contactMe1.hidden; contactMe2.hidden = !contactMe2.hidden"
+				>
+					<h4 id="contactMe1">> | how you can contact me!</h4>
+					<h4 id="contactMe2" hidden="true">
+						v | how you can contact me!
+					</h4>
+				</div>
+				<div id="contactMe" hidden="true">
+					<hr />
+					you can call me cat! (or kishka)
+					<p>
+						(soon) email me here:
+						<a href="mailto:kishka@kishka.cc" target="_blank"
+							>kishka@kishka.cc</a
+						>
+					</p>
+					<p>
+						message me on signal here:
+						<a
+							href="https://signal.me/#eu/gX0CSZdO0KdJRU1KQQJe6Nlyt9qzV-lWoDODp78I4WTuaKhaYUxDrqFkbXhDi3OC"
+							target="_blank"
+							>kishka.02</a
+						>
+					</p>
+				</div>
+			</card>
+		</div>
 
 		<div class="footer">
-			<card style="width: 75%">
-				<p id="versionDisplay" style="text-align: right; margin: 0">
-					[ERROR]
-				</p>
+			<card style="width: 70%">
+				<div style="display: flex; justify-content: center">
+					<button
+						class="buttonAlt"
+						onclick="copykishkacc88x31Snippet()"
+					>
+						Copy my button!
+					</button>
+
+					<div style="align-items: center">
+						<a href="https://kishka.cc/at" target="_blank"
+							><img
+								src="https://kishka.cc/at/88x31.gif"
+								alt="kishka.cc 88x31"
+						/></a>
+						<a href="https://micr0.dev/" target="_blank"
+							><img
+								src="https://micr0.dev/88x31.gif"
+								alt="micr0.dev 88x31"
+						/></a>
+						<a href="https://sarascafe.lenowo.org" target="_blank"
+							><img
+								src="https://sarascafe.lenowo.org/sarascafe.gif"
+								alt="sarascafe.lenowo.org 88x31"
+						/></a>
+						<a href="https://maia.crimew.gay" target="_blank"
+							><img
+								src="https://maia.crimew.gay/badges/maia.crimew.gay.png"
+								alt="maia.crimew.gay 88x31"
+						/></a>
+						<a href="https://nyatalie.fyi" target="_blank"
+							><img
+								src="https://nyatalie.fyi/nat88x31.png"
+								alt="nyatalie.fyi 88x31"
+						/></a>
+						<a href="https://azom.dev" target="_blank"
+							><img
+								src="https://azom.dev/8831"
+								alt="azom.dev 88x31"
+						/></a>
+						<a href="https://awawa.neocities.org" target="_blank"
+							><img
+								src="https://awawa.neocities.org/buttons/awawa.png"
+								alt="awawa.neocities.org 88x31"
+						/></a>
+					</div>
+
+					<button
+						id="versionDisplay"
+						class="buttonAlt"
+						onclick="window.open('https://github.com/KishkaCat/kishkacc', '_blank').focus();"
+					>
+						[ERROR]
+					</button>
+				</div>
 			</card>
 		</div>
 	</card>
+
+	<!--Leave these breaks alone, as they let the footer function normally -->
+	<br /><br /><br />
 </div>
 
 <script>
-	const version = "v1.7.19";
+	const version = "v1.8.7";
 	let versionDisplay = document.getElementById("versionDisplay");
 	versionDisplay.textContent = version;
 
